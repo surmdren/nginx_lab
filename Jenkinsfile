@@ -7,7 +7,7 @@ pipeline {
             }
             steps {
                 echo 'Hello World ! I am in develop branch.'
-                echo ${BRANCH_NAME}
+                echo "${BRANCH_NAME}"
             }
         }
     }
