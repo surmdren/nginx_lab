@@ -10,6 +10,7 @@ pipeline {
             }
             steps {
                 echo 'Hello World ! I am in develop branch.'
+                echo "Test tag build."
                 echo "${BRANCH_NAME}"
             }
         }
