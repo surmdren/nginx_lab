@@ -13,7 +13,6 @@ pipeline {
             }
             steps {
                 echo 'Hello World ! I am in develop branch.'
-                echo "Test tag v1.7 build."
                 echo env.BRANCH_NAME 
                 sh 'printenv'
             }
