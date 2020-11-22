@@ -2,9 +2,9 @@ pipeline {
     agent any
     stages {
         stage('Example') {
-            when {
-                    buildingTag()
-                }
+            #when {
+            #        buildingTag()
+            #    }
             options {
                 timeout(time: 1, unit: 'HOURS') 
             }
