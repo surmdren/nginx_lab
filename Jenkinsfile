@@ -1,3 +1,6 @@
+import groovy.json.JsonSlurperClassic
+@Library('gitlab-mylibs@master') _
+
 pipeline {
     agent any
     stages {
