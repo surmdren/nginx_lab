@@ -6,7 +6,7 @@ pipeline {
                 timeout(time: 1, unit: 'HOURS') 
             }
             steps {
-                echo 'Hello World, I am in master branch.Tag test.'
+                echo 'Hello World, I am in master branch.Tag test 2.'
             }
         }
     }
