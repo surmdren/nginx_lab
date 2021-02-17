@@ -13,9 +13,7 @@ pipeline {
                 timeout(time: 1, unit: 'HOURS') 
             }
             steps {
-                echo 'Hello World ! I am in develop branch.'
-                echo env.BRANCH_NAME 
-                sh 'printenv'
+                echo 'Hello World, I am in master branch.Tag test 2.10'
             }
         }
     }
